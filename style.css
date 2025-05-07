@@ -1,0 +1,187 @@
+body{
+    padding:0;
+    margin: 0;
+    justify-items: center;
+    font-family: sans-serif;
+}
+.container{
+    max-width: 900px;
+    width: 100%;              
+    margin: 40px 20px;      
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+
+}
+/* style pour le header */
+.profile-header{
+    display: flex;
+    margin-top: 30px;
+}
+.profile-picture {
+    max-width:180px;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+.profile-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.name-status {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left:300px;
+  }
+.name-status span{
+
+    padding: 0px 100px 0px 30px;
+  }
+.profile-info ul{
+    display:flex;
+    margin-top: 30px;
+    list-style: none;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.profile-info ul li{
+    flex:0 0 48%;
+}
+/* Fin: style pour le header */
+
+/* Debut: education section */
+.mysection {
+    display: flex;
+    align-items: center;
+  }
+.mysection h2{
+    width: 170px;        /* largeur fixe pour aligner tous les titres */
+    margin: 0;
+    text-align: left;
+}
+.education{
+    flex: 1;  
+
+}
+.education-item {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 4px solid #010b16;
+}
+
+.school {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.degree {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.grade {
+    color: #444;
+}
+  
+/*  Fin: formation section */
+
+/*  Debut: experience section */
+.experience{
+    flex: 1;  
+}
+.experience-item{
+    padding: 10px;
+    margin-bottom: 20px;
+    border-left: 4px solid #010b16;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+.title{
+    font-weight: bold;      
+
+}
+.date{
+    text-align: center;
+}
+/*  Fin: experience section */
+
+/* Debut : Projets Académiques  */
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacement entre projets */
+    margin-top: 15px;
+}
+
+.project-item {
+    padding: 10px 0;
+    padding-left: 15px;
+}
+
+.project-item h3 {
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    color: #222; /* ou la même couleur que tes titres d'expérience */
+}
+
+.project-item p {
+    margin: 5px 0;
+}
+
+
+/* Fin : Projets Académiques  */
+
+/* Debut : competence  */
+.competence{
+    flex: 1;  
+}
+.skill-group{
+    display: flex;
+    padding-top: 0px;
+    row-gap: 0px;
+}
+.skill-group p{
+    margin: 5px;
+}
+.skill-group p:first-child {
+    font-weight: bold;
+}
+/* Fin : competence  */
+.vertical-line{
+    background-color:#010b16;
+    width:2px;
+    align-self: stretch;
+    margin: 0px 10px;
+}
+/* Debut : langauge  */
+.language-section{
+    display: flex;
+    justify-content: center;
+    gap:70px;
+}
+.language{
+    display: flex;
+}
+.language ul{
+    list-style: disc;
+    margin: 0;
+}
+.language ul li{
+    padding-bottom: 10px;
+}
+/* ******** */
+/* Debut :  certifications */
+.certifications {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Deux colonnes */
+    
+}
+.certification-item {
+    padding-left:10px ;
+}
