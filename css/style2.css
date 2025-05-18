@@ -14,7 +14,6 @@ body{
     border-radius: 10px;
 }
 /* style pour le header */
-/* Style pour le header */
 /* Profile Header */
 .profile-header {
   display: flex;
@@ -125,7 +124,7 @@ body{
 
 .grade {
     color: #444;
-    font-size: 0.9rem; /* Smaller font for grade */
+    font-size: 0.9rem; 
 }
   
 /*  Fin: formation section */
@@ -186,8 +185,7 @@ body{
 
 /* Fin : Projets Académiques  */
 
-/* Debut : competence  */
-/* Section des compétences */
+/* Debut : compétences  */
 .competence {
   display: flex;
   flex-direction: column;
@@ -252,11 +250,9 @@ body{
   align-self: stretch;
 }
 
-/* Suppression de bordures lourdes et simplification de l'apparence */
 .competence .skill-group {
-  padding-left: 20px; /* Simplifier l'alignement sans ajout de bordure */
+  padding-left: 20px; 
 }
-
 .competence .skill-title,
 .info-section .section-title {
   font-size: 1rem;
@@ -269,4 +265,3 @@ body{
   padding: 0;
   flex-direction: column;
 }
-
